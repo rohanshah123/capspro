@@ -1,0 +1,36 @@
+<br/>
+<br/>
+<h2>Confirm deletion of customer</h2>
+<br/>
+ID:
+<%=  customer._id %>
+  <br> Email:
+  <%=customer.email%>
+    <br/> first:
+    <%=customer.first%>
+      <br/> last
+      <%=customer.last%>
+        <br/>Street1
+        <%=customer.street1%>
+        <br/>Street2
+        <%=customer.street2%>
+        <br/>city
+        <%=customer.city%>
+        <br/>state
+        <%=customer.state%>
+        <br/>zip
+        <%=customer.zip%>
+        <br/>country
+        <%=customer.country%>
+        <br/>
+            <br/>
+            <br/>
+
+            <form method="get" action="/customer">
+              <input type="submit" value="Return to list" class="btn btn-caution" />
+            </form>
+
+            <br/>
+            <form method="POST" action="/customer/delete/<%= customer._id %>">
+              <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
+            </form>

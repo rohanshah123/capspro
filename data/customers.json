@@ -1,0 +1,14 @@
+[
+    {
+        "_id": 1,
+        "email": "ankskk@gmail.com",
+        "first": "Ankit",
+        "last": "Prakash",
+        "street1": "800 University Drive",
+        "street2": "",
+        "city": "Maryville",
+        "state":"MO",
+        "zip": 64468,
+        "country": "USA"
+    }
+]

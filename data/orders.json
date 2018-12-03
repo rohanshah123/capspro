@@ -1,0 +1,20 @@
+[
+    {
+        "_id": 1,
+        "email": "ankskk@gmail.com",
+        "datePlaced": "2018-11-13",
+        "dateShipped": "2018-11-13",
+        "paymentType": "Cash",
+        "amountDue": 34.98,
+        "paid": true
+    },
+    {
+        "_id": 2,
+        "email": "rohit.naini@live.com",
+        "datePlaced": "2018-11-13",
+        "dateShipped": "2018-11-13",
+        "paymentType": "Cash",
+        "amountDue": 34.98,
+        "paid": true
+    }
+]

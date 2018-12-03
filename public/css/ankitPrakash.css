@@ -1,0 +1,103 @@
+
+#profile img {
+	padding: 2em;
+	border-radius: 50%;
+	height: 20em;
+	width: 20em;	
+
+}
+#name{
+    font-family: 'Lobster', cursive;
+	font-size: 60px; 
+	color: rgb(32, 32, 31);
+	margin-top: 7rem;
+	margin-left: 7rem;
+	
+	}
+#intro{
+	
+	font-family: 'Merienda', cursive;
+	font-size: 1em; 
+	color: rgb(10, 10, 10);
+}
+
+#intro-head{
+    font-family: 'Lobster', cursive;
+	font-size: 60px; 
+	color: rgb(32, 32, 31);
+	margin-top: 0;
+	}
+.jumbotron-fluid{
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('../images/background/20449.jpg');
+	background-position: center;
+}
+
+.jumbotron{
+	background-image: linear-gradient(rgba(109, 151, 111, 0.5),rgba(151, 109, 109, 0.5)), 
+	url('../images/background/story_background.jpg');
+	
+	background-position: center;
+}
+.navbar{
+	font-family: 'Candal', sans-serif;
+	
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#c1.carousel-control-prev-icon,
+#c1.carousel-control-next-icon {
+  height: 2em;
+  width: 2em;
+  
+}
+
+#c1.carousel-control-prev,
+#c1.carousel-control-next{
+	
+	margin-bottom: 5em
+}
+
+#c2.carousel-control-prev-icon,
+#c2.carousel-control-next-icon {
+
+	display: none;
+  
+}
+
+#c2.carousel-control-next,
+#c1.carousel-control-prev{
+	height: 20em;
+	width: 20em;
+}
+
+#carouselExampleControls:hover{
+	cursor: pointer;
+}
+.content{
+	margin: 5em;
+}
+
+
+.title{
+	background-image: url('../images/background/glass.jpg	'), linear-gradient(rgba(241, 233, 233, 0.945),rgba(241, 233, 233, 0.945));
+	font-family: 'Charmonman', cursive;
+	font-size: 3em;
+	text-align: center;
+	padding:1em;   
+}
+
+
